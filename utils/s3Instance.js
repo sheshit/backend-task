@@ -1,6 +1,6 @@
 
 const AWS = require("aws-sdk");
-const keys = require('./keys');
+const keys = require('../keys');
 
 AWS.config.update({
     accessKeyId: keys.iam_access_id,
